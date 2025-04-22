@@ -13,7 +13,7 @@ export function MyResume() {
           <Beams />
           <Lens hovering={hovering} setHovering={setHovering}>
             <BlurImage
-              src="/src/assets/PP.png"
+              src="/images/a1.jpg"
               alt="image"
               width={450}
               height={400}

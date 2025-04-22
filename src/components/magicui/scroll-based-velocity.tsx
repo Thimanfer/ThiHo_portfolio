@@ -8,7 +8,7 @@ import {
   useSpring,
   useTransform,
   useVelocity,
-} from "motion/react"
+} from "framer-motion"
 import React, { useEffect, useRef, useState } from "react"
 
 import { cn } from "@/lib/utils"
@@ -66,7 +66,7 @@ function ParallaxText({
     return () => window.removeEventListener("resize", calculateRepetitions)
   }, [children])
 
-  const x = useTransform(baseX, (v) => `${wrap(-100 / repetitions, 0, v)}%`)
+  const x = useTransform(baseX, (v) => `${wrap(-100 / repetitions, 0, v as number)}%`)
 
   const directionFactor = React.useRef<number>(1)
   useAnimationFrame((t, delta) => {

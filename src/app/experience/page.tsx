@@ -2,14 +2,14 @@ import { FullScreen } from "@/components/full-screen"
 import { ExperienceTimeline } from "./containers/experience-timeline"
 
 export const metadata = {
-  title: "Experience | Kinh Dev",
+  title: "Experience | Thi Dev",
   description:
     "Explore the professional journey of Kinh Dev - frontend developer with experience in modern JavaScript frameworks.",
   openGraph: {
-    title: "Experience | Kinh Dev",
+    title: "Experience | Thi Dev",
     description:
       "Frontend Developer with hands-on experience in React, Next.js, and modern UI/UX design.",
-    url: "https://kinhdev.id.vn/experience",
+    url: "https://thidev.id.vn/experience",
     siteName: "Kinh Dev",
     images: [
       // {
@@ -22,13 +22,13 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Experience | Kinh Dev",
+    title: "Experience | Thi Dev",
     description:
-      "Check out Kinh Dev's past work and achievements in frontend development.",
+      "Check out Thi Dev's past work and achievements in frontend development.",
     //   images: ["https://kinhdev.id.vn/images/seo/experience-og-image.png"],
   },
   alternates: {
-    canonical: "https://kinhdev.id.vn/experience",
+    canonical: "https://Thidev.id.vn/experience",
   },
 }
 

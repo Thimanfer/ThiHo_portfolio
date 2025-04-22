@@ -29,7 +29,7 @@ const links = [
   },
   {
     title: "Experience",
-    href: "/experience",
+    href: "/",
   },
   {
     title: "Projects",
